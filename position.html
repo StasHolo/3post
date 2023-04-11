@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <style>
+.general{
+  background-color: aqua;
+  padding: 20px;
+  font-size: 30px;
+  position: relative;
+  height: 600px;
+  
+}
+.first-div{
+  background-color: rgb(31, 255, 31);
+  position: fixed;
+  top: 0px;
+  left: 200px;
+}
+.second-div{
+  background-color: rgb(255, 74, 74);
+  position: absolute;
+  bottom: 10px;
+}
+.third-div{
+  background-color: rgb(239, 253, 36);
+  position: absolute;
+  right: 10px;
+}
+.top-sticky{
+  position: sticky;
+  background-color: rgb(63, 92, 255);
+  text-align: center;
+  font-size: 30px;
+  top: 0;
+  height: 50px;
+  
+}
+
+body{
+  height: 1500px;
+}
+    </style>
+  </head>
+  <body>
+    
+    <div class="general">
+      <p>Relative</p>
+      <div class="top-sticky">Sticky</div>
+      <div class="first-div"> Fixed top </div>
+      
+      <div class="second-div">Absolute bottom</div>
+
+      <div class="third-div">Absolute right</div>
+    </div>
+    
+  </body>
+</html>
